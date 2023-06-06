@@ -28,6 +28,7 @@ with open("passwords.txt") as Passwords:
   passwordCheck = lineList[line]
   padLen = int(len(name)) + 3
   passwordCheck = passwordCheck[padLen:]
+  passwordCheck = passwordCheck[:-1]
   if passwordHash == str(passwordCheck):
     print("Password verified!")
     exit()
