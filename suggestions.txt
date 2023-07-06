@@ -1,9 +1,0 @@
-Hello theOne, this is Xy200, Vivinaut here,
-
-A suggestion i can give you is import the pyinputplus module as pyip and use the passwords method as shown below
-
-import pyinputplus as pyip
-pyip.inputPassword("Please input password")
-
-cya round bro
-Xy200
