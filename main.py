@@ -4,7 +4,7 @@ import pyinputplus as pyip
 
 signedIn = False
 signInAttempts = 0
-userpass = open("usernames_pass.txt","a+", encoding='UTF-8')
+userpass = open(r"*/usernames_pass.txt","a+", encoding='UTF-8') 
 
 def shahash(string):
     digest = hashlib.sha256(string.encode('UTF-8')).hexdigest()
